@@ -1,0 +1,498 @@
+2016-09-30 12:11:34,562 (1b90) :  INFO (core:349) - Starting framework core - Version: 2.6.3, Build: 24ffd60 (Mon Sep 12 15:27:43 UTC 2016)
+2016-09-30 12:11:34,562 (1b90) :  DEBUG (core:361) - Using the elevated policy
+2016-09-30 12:11:34,562 (1b90) :  DEBUG (core:450) - Starting runtime component.
+2016-09-30 12:11:34,565 (1b90) :  DEBUG (core:450) - Starting caching component.
+2016-09-30 12:11:34,565 (1b90) :  DEBUG (core:450) - Starting data component.
+2016-09-30 12:11:34,565 (1b90) :  DEBUG (core:450) - Starting networking component.
+2016-09-30 12:11:34,568 (1b90) :  DEBUG (networking:284) - Loaded HTTP cookies
+2016-09-30 12:11:34,569 (1b90) :  DEBUG (networking:452) - Setting the default network timeout to 20.0
+2016-09-30 12:11:34,569 (1b90) :  DEBUG (core:450) - Starting localization component.
+2016-09-30 12:11:34,569 (1b90) :  INFO (localization:409) - Setting the default locale to en-us
+2016-09-30 12:11:34,572 (1b90) :  DEBUG (localization:427) - Loaded en strings
+2016-09-30 12:11:34,572 (1b90) :  DEBUG (core:450) - Starting messaging component.
+2016-09-30 12:11:34,572 (1b90) :  DEBUG (core:450) - Starting debugging component.
+2016-09-30 12:11:34,572 (1b90) :  DEBUG (core:450) - Starting services component.
+2016-09-30 12:11:34,573 (1e24) :  DEBUG (networking:166) - Requesting 'http://127.0.0.1:32400/system/messaging/clear_events/com.plexapp.plugins.trakttv'
+2016-09-30 12:11:34,573 (1b90) :  DEBUG (core:450) - Starting myplex component.
+2016-09-30 12:11:34,573 (1b90) :  DEBUG (core:450) - Starting notifications component.
+2016-09-30 12:11:34,743 (1b90) :  DEBUG (accessor:68) - Creating a new model access point for provider com.plexapp.plugins.trakttv in namespace 'metadata'
+2016-09-30 12:11:34,750 (1b90) :  DEBUG (networking:166) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/resourceHashes'
+2016-09-30 12:11:35,049 (1b90) :  DEBUG (runtime:1117) - Created a thread named 'load_all_services'
+2016-09-30 12:11:35,049 (152c) :  DEBUG (services:265) - Plug-in is not daemonized - loading services from system
+2016-09-30 12:11:35,049 (1b90) :  DEBUG (runtime:1117) - Created a thread named 'get_server_info'
+2016-09-30 12:11:35,049 (1b90) :  DEBUG (core:150) - Finished starting framework core
+2016-09-30 12:11:35,051 (152c) :  DEBUG (networking:166) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_'
+2016-09-30 12:11:35,051 (1b10) :  DEBUG (networking:166) - Requesting 'http://127.0.0.1:32400'
+2016-09-30 12:11:35,051 (1b90) :  DEBUG (core:560) - Loading plug-in code
+2016-09-30 12:11:35,061 (1b10) :  DEBUG (core:538) - Machine identifier is ee5e3bab0df7d71c99eb0caddc0f6064acd13729
+2016-09-30 12:11:35,061 (1b10) :  DEBUG (core:539) - Server version is 1.1.4.2757-24ffd60
+2016-09-30 12:11:35,085 (1b90) :  DEBUG (core:566) - Finished loading plug-in code
+2016-09-30 12:11:35,338 (1b90) :  DEBUG (logkit:13) - Running migration: <Clean object at 0x036EF7D0>
+2016-09-30 12:11:35,372 (1b90) :  DEBUG (logkit:13) - Running migration: <ForceLegacy object at 0x036EF870>
+2016-09-30 12:11:35,375 (1b90) :  DEBUG (logkit:13) - Running migration: <SelectiveSync object at 0x036EF890>
+2016-09-30 12:11:36,289 - plugin.core.configuration        (1b90) :  DEBUG (plugin.core.configuration:33) - Parsing configuration file: u'Data\\com.plexapp.plugins.trakttv\\advanced.ini'
+2016-09-30 12:11:36,290 - com.plexapp.plugins.trakttv      (152c) :  DEBUG (com.plexapp.plugins.trakttv:362) - Loaded services
+2016-09-30 12:11:36,292 - plugin.core.logger.handlers.error_reporter.ErrorReporter (1b90) :  DEBUG (plugin.core.logger.handlers.error_reporter.ErrorReporter:201) - Configuring Raven for host: threaded+requests+http://240c00f6a02542f8900d8a6a1aba365a:7432061e2ac54ed0aabe4ec3fe3ea0d9@sentry.skipthe.net:/1
+2016-09-30 12:11:36,292 - plugin.core.logger.main          (1b90) :  DEBUG (plugin.core.logger.main:72) - Initialized logging (report: True, storage: False)
+2016-09-30 12:11:36,301 - com.plexapp.plugins.trakttv      (1390) :  DEBUG (com.plexapp.plugins.trakttv:438) - No shared code to load
+2016-09-30 12:11:36,302 - com.plexapp.plugins.trakttv      (1b90) :  DEBUG (com.plexapp.plugins.trakttv:258) - Loaded preferences from DefaultPrefs.json
+2016-09-30 12:11:36,306 - com.plexapp.plugins.trakttv      (1b90) :  DEBUG (com.plexapp.plugins.trakttv:178) - Loaded the user preferences for com.plexapp.plugins.trakttv
+2016-09-30 12:11:36,308 - plugin.core.environment          (1b90) :  INFO (plugin.core.environment:119) - Using locale: ('Hebrew_Israel', '1255')
+2016-09-30 12:11:36,313 - plugin.core.environment          (1b90) :  INFO (plugin.core.environment:165) - Using languages: ['en_us', 'en'] (translation: <gettext.GNUTranslations instance at 0x034E06E8>)
+2016-09-30 12:11:36,459 - plugin.core.libraries.manager    (1b90) :  INFO (plugin.core.libraries.manager:189) - Cached libraries to u'Plug-in Support\\Data\\com.plexapp.plugins.trakttv\\Libraries'
+2016-09-30 12:11:36,460 - plugin.core.libraries.manager    (1b90) :  INFO (plugin.core.libraries.manager:36) - Using native libraries at u'Plug-in Support\\Data\\com.plexapp.plugins.trakttv\\Libraries'
+2016-09-30 12:11:36,460 - plugin.core.libraries.helpers.path (1b90) :  DEBUG (plugin.core.libraries.helpers.path:45) - Removed path: u'Plug-ins\\Trakttv.bundle\\Contents\\Libraries\\Windows\\i386'
+2016-09-30 12:11:36,460 - plugin.core.libraries.manager    (1b90) :  DEBUG (plugin.core.libraries.manager:198) - Bits: '32bit', Machine: 'AMD64'
+2016-09-30 12:11:36,460 - plugin.core.libraries.manager    (1b90) :  DEBUG (plugin.core.libraries.manager:207) - System: 'Windows', Architecture: 'i386'
+2016-09-30 12:11:36,461 - plugin.core.libraries.helpers.path (1b90) :  DEBUG (plugin.core.libraries.helpers.path:30) - Inserted path: u'Plug-in Support\\Data\\com.plexapp.plugins.trakttv\\Libraries\\Windows\\i386'
+2016-09-30 12:11:36,461 - plugin.core.libraries.manager    (1b90) :  DEBUG (plugin.core.libraries.manager:278) - VCR: 'vc14', UCS: 'ucs2'
+2016-09-30 12:11:36,463 - plugin.core.libraries.helpers.path (1b90) :  DEBUG (plugin.core.libraries.helpers.path:30) - Inserted path: u'Plug-in Support\\Data\\com.plexapp.plugins.trakttv\\Libraries\\Windows\\i386\\vc14'
+2016-09-30 12:11:36,463 - plugin.core.libraries.helpers.path (1b90) :  DEBUG (plugin.core.libraries.helpers.path:30) - Inserted path: u'Plug-in Support\\Data\\com.plexapp.plugins.trakttv\\Libraries\\Windows\\i386\\vc14\\ucs2'
+2016-09-30 12:11:36,463 - plugin.core.libraries.manager    (1b90) :  INFO (plugin.core.libraries.manager:51) - [PATH] Plug-in Support\Data\com.plexapp.plugins.trakttv\Libraries\Windows\i386\vc14\ucs2
+2016-09-30 12:11:36,463 - plugin.core.libraries.manager    (1b90) :  INFO (plugin.core.libraries.manager:51) - [PATH] Plug-in Support\Data\com.plexapp.plugins.trakttv\Libraries\Windows\i386\vc14
+2016-09-30 12:11:36,464 - plugin.core.libraries.manager    (1b90) :  INFO (plugin.core.libraries.manager:51) - [PATH] Plug-in Support\Data\com.plexapp.plugins.trakttv\Libraries\Windows\i386
+2016-09-30 12:11:36,464 - plugin.core.libraries.manager    (1b90) :  INFO (plugin.core.libraries.manager:51) - [PATH] Plug-ins\Trakttv.bundle\Contents\Libraries\Shared
+2016-09-30 12:11:36,464 - plugin.core.libraries.manager    (1b90) :  INFO (plugin.core.libraries.manager:56) - Testing native library support...
+2016-09-30 12:11:36,466 - plugin.core.libraries.tests.core.base (1b90) :  DEBUG (plugin.core.libraries.tests.core.base:96) - Starting test: plugin.core.libraries.tests.apsw_:test_import
+2016-09-30 12:11:36,806 - plugin.core.libraries.manager    (1b90) :  INFO (plugin.core.libraries.manager:102) - apsw: available (sqlite: 3010002, apsw: 3.10.2-r1)
+2016-09-30 12:11:36,808 - plugin.core.libraries.tests.core.base (1b90) :  DEBUG (plugin.core.libraries.tests.core.base:96) - Starting test: plugin.core.libraries.tests.cryptography_:test_import
+2016-09-30 12:11:37,137 - plugin.core.libraries.manager    (1b90) :  INFO (plugin.core.libraries.manager:107) - cryptography: available (1.2.2)
+2016-09-30 12:11:37,138 - plugin.core.libraries.tests.core.base (1b90) :  DEBUG (plugin.core.libraries.tests.core.base:96) - Starting test: plugin.core.libraries.tests.llist_:test_import
+2016-09-30 12:11:37,433 - plugin.core.libraries.manager    (1b90) :  INFO (plugin.core.libraries.manager:109) - llist: available
+2016-09-30 12:11:37,434 - plugin.core.libraries.tests.core.base (1b90) :  DEBUG (plugin.core.libraries.tests.core.base:96) - Starting test: plugin.core.libraries.tests.openssl_:test_import
+2016-09-30 12:11:39,357 - plugin.core.libraries.tests.openssl_ (1b90) :  DEBUG (plugin.core.libraries.tests.openssl_:84) - Standard SSL library doesn't support "SSLContext"
+2016-09-30 12:11:39,357 - plugin.core.libraries.tests.openssl_ (1b90) :  DEBUG (plugin.core.libraries.tests.openssl_:92) - Using bundled SSL library (pyOpenSSL)
+2016-09-30 12:11:39,617 - plugin.core.logger.handlers.error_reporter.ErrorReporter (1b90) :  DEBUG (plugin.core.logger.handlers.error_reporter.ErrorReporter:201) - Configuring Raven for host: threaded+requests+https://240c00f6a02542f8900d8a6a1aba365a:7432061e2ac54ed0aabe4ec3fe3ea0d9@sentry.skipthe.net:/1
+2016-09-30 12:11:39,618 - plugin.core.libraries.manager    (1b90) :  INFO (plugin.core.libraries.manager:102) - openssl: available (pyopenssl: 16.1.0, openssl: 268443743)
+2016-09-30 12:11:39,782 - plugin.core.helpers              (1b90) :  INFO (plugin.core.helpers:64) - Using 'simplejson' module for JSON serialization
+2016-09-30 12:11:40,177 - plugin.core.helpers.database     (1b90) :  DEBUG (plugin.core.helpers.database:20) - Connected to database at u'C:\\Users\\rongo\\AppData\\Local\\Plex Media Server\\Plug-in Support\\Databases\\com.plexapp.plugins.trakttv.db'
+2016-09-30 12:11:40,630 - pyemitter                        (1b90) :  DEBUG (pyemitter:45) - [plex_activity.activity.Activity   ]:on(events: ['websocket.timeline.created'], func: <bound method Metadata.timeline_created of <plex_metadata.metadata.Metadata object at 0x058A6BB0>>)
+2016-09-30 12:11:40,630 - pyemitter                        (1b90) :  DEBUG (pyemitter:45) - [plex_activity.activity.Activity   ]:on(events: ['websocket.timeline.deleted'], func: <bound method Metadata.timeline_deleted of <plex_metadata.metadata.Metadata object at 0x058A6BB0>>)
+2016-09-30 12:11:40,630 - pyemitter                        (1b90) :  DEBUG (pyemitter:45) - [plex_activity.activity.Activity   ]:on(events: ['websocket.timeline.finished'], func: <bound method Metadata.timeline_finished of <plex_metadata.metadata.Metadata object at 0x058A6BB0>>)
+2016-09-30 12:11:40,752 - plex_database.core.database      (1b90) :  DEBUG (plex_database.core.database:17) - Connecting to u'C:\\Users\\rongo\\AppData\\Local\\Plex Media Server\\Plug-in Support\\Databases\\com.plexapp.plugins.library.db'
+2016-09-30 12:11:41,701 - oem_framework.models.core.registry (1b90) :  DEBUG (oem_framework.models.core.registry:29) - [Model         ] Registered: <class 'oem_framework.models.core.base.model.Model'>
+2016-09-30 12:11:41,704 - oem_framework.models.core.registry (1b90) :  DEBUG (oem_framework.models.core.registry:29) - [BaseMapping   ] Registered: <class 'oem_framework.models.core.base.mapping.BaseMapping'>
+2016-09-30 12:11:41,717 - oem_framework.models.core.registry (1b90) :  DEBUG (oem_framework.models.core.registry:29) - [BaseMedia     ] Registered: <class 'oem_framework.models.core.base.media.BaseMedia'>
+2016-09-30 12:11:41,719 - oem_framework.models.core.registry (1b90) :  DEBUG (oem_framework.models.core.registry:29) - [Collection    ] Registered: <class 'oem_framework.models.collection.Collection'>
+2016-09-30 12:11:41,720 - oem_framework.models.core.registry (1b90) :  DEBUG (oem_framework.models.core.registry:29) - [Database      ] Registered: <class 'oem_framework.models.database.Database'>
+2016-09-30 12:11:41,723 - oem_framework.models.core.registry (1b90) :  DEBUG (oem_framework.models.core.registry:29) - [Index         ] Registered: <class 'oem_framework.models.index.Index'>
+2016-09-30 12:11:41,724 - oem_framework.models.core.registry (1b90) :  DEBUG (oem_framework.models.core.registry:29) - [Item          ] Registered: <class 'oem_framework.models.item.Item'>
+2016-09-30 12:11:41,726 - oem_framework.models.core.registry (1b90) :  DEBUG (oem_framework.models.core.registry:29) - [Metadata      ] Registered: <class 'oem_framework.models.metadata.Metadata'>
+2016-09-30 12:11:41,729 - oem_framework.models.core.registry (1b90) :  DEBUG (oem_framework.models.core.registry:29) - [Range         ] Registered: <class 'oem_framework.models.range.Range'>
+2016-09-30 12:11:41,730 - oem_framework.models.core.registry (1b90) :  DEBUG (oem_framework.models.core.registry:29) - [Movie         ] Registered: <class 'oem_framework.models.movie.Movie'>
+2016-09-30 12:11:41,733 - oem_framework.models.core.registry (1b90) :  DEBUG (oem_framework.models.core.registry:29) - [Part          ] Registered: <class 'oem_framework.models.part.Part'>
+2016-09-30 12:11:41,736 - oem_framework.models.core.registry (1b90) :  DEBUG (oem_framework.models.core.registry:29) - [Show          ] Registered: <class 'oem_framework.models.show.Show'>
+2016-09-30 12:11:41,739 - oem_framework.models.core.registry (1b90) :  DEBUG (oem_framework.models.core.registry:29) - [Season        ] Registered: <class 'oem_framework.models.season.Season'>
+2016-09-30 12:11:41,740 - oem_framework.models.core.registry (1b90) :  DEBUG (oem_framework.models.core.registry:29) - [SeasonMapping ] Registered: <class 'oem_framework.models.season.SeasonMapping'>
+2016-09-30 12:11:41,743 - oem_framework.models.core.registry (1b90) :  DEBUG (oem_framework.models.core.registry:29) - [Episode       ] Registered: <class 'oem_framework.models.episode.Episode'>
+2016-09-30 12:11:41,743 - oem_framework.models.core.registry (1b90) :  DEBUG (oem_framework.models.core.registry:29) - [EpisodeMapping] Registered: <class 'oem_framework.models.episode.EpisodeMapping'>
+2016-09-30 12:11:41,760 - oem_framework.models.core.registry (1b90) :  DEBUG (oem_framework.models.core.registry:27) - [Collection    ] Replaced: <class 'oem_core.models.collection.Collection'>
+2016-09-30 12:11:41,763 - oem_framework.models.core.registry (1b90) :  DEBUG (oem_framework.models.core.registry:27) - [Database      ] Replaced: <class 'oem_core.models.database.Database'>
+2016-09-30 12:11:41,765 - oem_framework.models.core.registry (1b90) :  DEBUG (oem_framework.models.core.registry:27) - [Index         ] Replaced: <class 'oem_core.models.index.Index'>
+2016-09-30 12:11:41,766 - oem_framework.models.core.registry (1b90) :  DEBUG (oem_framework.models.core.registry:27) - [Metadata      ] Replaced: <class 'oem_core.models.metadata.Metadata'>
+2016-09-30 12:11:41,890 - pyemitter                        (1b90) :  DEBUG (pyemitter:45) - [plex_activity.activity.Activity   ]:on(events: ['websocket.scanner.finished'], func: <bound method LibraryUpdateTrigger.trigger of <plugin.sync.triggers.library_update.LibraryUpdateTrigger object at 0x05BFADD0>>)
+2016-09-30 12:11:41,891 - pyemitter                        (1b90) :  DEBUG (pyemitter:45) - [plex_activity.activity.Activity   ]:on(events: ['websocket.timeline.loading'], func: <bound method LibraryUpdateTrigger.trigger of <plugin.sync.triggers.library_update.LibraryUpdateTrigger object at 0x05BFADD0>>)
+2016-09-30 12:11:41,891 - pyemitter                        (1b90) :  DEBUG (pyemitter:45) - [plex_activity.activity.Activity   ]:on(events: ['websocket.timeline.finished'], func: <bound method LibraryUpdateTrigger.trigger of <plugin.sync.triggers.library_update.LibraryUpdateTrigger object at 0x05BFADD0>>)
+2016-09-30 12:11:42,026 - com.plexapp.plugins.trakttv      (1b90) :  DEBUG (com.plexapp.plugins.trakttv:640) - Adding a prefix handler for 'Trakt.tv' ('/video/trakt')
+2016-09-30 12:11:42,128 - com.plexapp.plugins.trakttv      (1b90) :  INFO (com.plexapp.plugins.trakttv:93) - Loaded the dictionary file
+2016-09-30 12:11:42,223 - com.plexapp.plugins.trakttv      (1b90) :  DEBUG (com.plexapp.plugins.trakttv:69) - Exposing function Api for remote access
+2016-09-30 12:11:42,226 - plugin.core.singleton            (1b90) :  DEBUG (plugin.core.singleton:92) - Starting server (port: 35374)...
+2016-09-30 12:11:42,226 - plugin.core.singleton            (1b90) :  DEBUG (plugin.core.singleton:110) - Started
+2016-09-30 12:11:42,229 - plugin.core.logger.main          (1b90) :  DEBUG (plugin.core.logger.main:72) - Initialized logging (report: True, storage: True)
+2016-09-30 12:11:42,230 - com.plexapp.plugins.trakttv      (1b90) :  INFO (com.plexapp.plugins.trakttv:16) - ==================================================
+2016-09-30 12:11:42,230 - com.plexapp.plugins.trakttv      (1b90) :  INFO (com.plexapp.plugins.trakttv:16) - | Trakt.tv
+2016-09-30 12:11:42,230 - com.plexapp.plugins.trakttv      (1b90) :  INFO (com.plexapp.plugins.trakttv:16) - | https://github.com/trakt/Plex-Trakt-Scrobbler
+2016-09-30 12:11:42,232 - com.plexapp.plugins.trakttv      (1b90) :  INFO (com.plexapp.plugins.trakttv:16) - --------------------------------------------------
+2016-09-30 12:11:42,232 - com.plexapp.plugins.trakttv      (1b90) :  INFO (com.plexapp.plugins.trakttv:16) - | Current Version: v1.1.0.6-master
+2016-09-30 12:11:42,232 - com.plexapp.plugins.trakttv      (1b90) :  INFO (com.plexapp.plugins.trakttv:16) - --------------------------------------------------
+2016-09-30 12:11:42,233 - com.plexapp.plugins.trakttv      (1b90) :  INFO (com.plexapp.plugins.trakttv:16) - | core.header
+2016-09-30 12:11:42,233 - com.plexapp.plugins.trakttv      (1b90) :  INFO (com.plexapp.plugins.trakttv:16) - | core.helpers
+2016-09-30 12:11:42,233 - com.plexapp.plugins.trakttv      (1b90) :  INFO (com.plexapp.plugins.trakttv:16) - | core.logger
+2016-09-30 12:11:42,234 - com.plexapp.plugins.trakttv      (1b90) :  INFO (com.plexapp.plugins.trakttv:16) - | core.update_checker
+2016-09-30 12:11:42,234 - com.plexapp.plugins.trakttv      (1b90) :  INFO (com.plexapp.plugins.trakttv:16) - | interface.m_main
+2016-09-30 12:11:42,234 - com.plexapp.plugins.trakttv      (1b90) :  INFO (com.plexapp.plugins.trakttv:16) - | interface.m_messages
+2016-09-30 12:11:42,234 - com.plexapp.plugins.trakttv      (1b90) :  INFO (com.plexapp.plugins.trakttv:16) - | interface.m_sync
+2016-09-30 12:11:42,236 - com.plexapp.plugins.trakttv      (1b90) :  INFO (com.plexapp.plugins.trakttv:16) - | interface.resources
+2016-09-30 12:11:42,236 - com.plexapp.plugins.trakttv      (1b90) :  INFO (com.plexapp.plugins.trakttv:16) - ==================================================
+2016-09-30 12:11:42,236 - plugin.core.logger.main          (1b90) :  DEBUG (plugin.core.logger.main:159) - Changed 'pyemitter' logger level to INFO
+2016-09-30 12:11:42,239 - plugin.core.logger.main          (1b90) :  DEBUG (plugin.core.logger.main:159) - Changed 'trakt' logger level to INFO
+2016-09-30 12:11:42,240 - plugin.core.logger.main          (1b90) :  DEBUG (plugin.core.logger.main:159) - Changed 'plex' logger level to INFO
+2016-09-30 12:11:42,240 - plugin.core.logger.main          (1b90) :  DEBUG (plugin.core.logger.main:159) - Changed 'com.plexapp.plugins.trakttv' logger level to INFO
+2016-09-30 12:11:42,242 - plugin.core.logger.main          (1b90) :  DEBUG (plugin.core.logger.main:159) - Changed 'plex_activity' logger level to INFO
+2016-09-30 12:11:42,243 - plugin.core.logger.main          (1b90) :  DEBUG (plugin.core.logger.main:159) - Changed 'plugin' logger level to INFO
+2016-09-30 12:11:42,249 - trakt.core.http                  (1b90) :  INFO (trakt.core.http:136) - Rebuilding session and connection pools...
+2016-09-30 12:11:42,279 - plugin                           (1b90) :  INFO (plugin:54) - Initialized 1 modules: UpdateChecker
+2016-09-30 12:11:42,447 - com.plexapp.plugins.trakttv      (1b90) :  INFO (com.plexapp.plugins.trakttv:611) - Started plug-in
+2016-09-30 12:11:42,447 - plugin                           (14fc) :  INFO (plugin:157) - X-Plex-Token: available
+2016-09-30 12:11:42,461 - com.plexapp.plugins.trakttv      (1b90) :  INFO (com.plexapp.plugins.trakttv:184) - Socket server started on port 60868
+2016-09-30 12:11:42,461 - requests.packages.urllib3.connectionpool (14fc) :  INFO (requests.packages.urllib3.connectionpool:214) - Starting new HTTP connection (1): 127.0.0.1
+2016-09-30 12:11:42,463 - com.plexapp.plugins.trakttv      (1b90) :  INFO (com.plexapp.plugins.trakttv:25) - Entering run loop
+2016-09-30 12:11:42,862 - plugin.modules.migrations.main   (14fc) :  INFO (plugin.modules.migrations.main:31) - Running migration: 'SchemaMigration'
+2016-09-30 12:11:42,862 - peewee_migrate.core              (14fc) :  INFO (peewee_migrate.core:53) - Configuration file `conf.py` wasn't found in the migration directory
+2016-09-30 12:11:42,900 - peewee_migrate.core              (14fc) :  INFO (peewee_migrate.core:308) - Validated 22 table(s)
+2016-09-30 12:11:42,901 - plugin.modules.migrations.schema (14fc) :  INFO (plugin.modules.migrations.schema:22) - Database schema is valid
+2016-09-30 12:11:42,901 - peewee_migrate.core              (14fc) :  INFO (peewee_migrate.core:106) - Running migrations...
+2016-09-30 12:11:42,907 - peewee_migrate.core              (14fc) :  INFO (peewee_migrate.core:118) - Database has 16 migrations applied:
+  000_initial
+  001_session
+  002_rule
+  003_plex_account
+  004_scheduler
+  005_sync_result
+  006_scheduler_job
+  007_plex_account
+  008_plex_basic_credential
+  009_account
+  010_account
+  011_message
+  012_account
+  013_action
+  014_session
+  015_action
+2016-09-30 12:11:42,910 - peewee_migrate.core              (14fc) :  INFO (peewee_migrate.core:129) - Nothing to migrate
+2016-09-30 12:11:42,911 - plugin.modules.migrations.main   (14fc) :  INFO (plugin.modules.migrations.main:31) - Running migration: 'AccountMigration'
+2016-09-30 12:11:42,914 - plugin.modules.migrations.account (14fc) :  INFO (plugin.modules.migrations.account:244) - Plex Token: environment
+2016-09-30 12:11:42,917 - plugin.modules.migrations.main   (14fc) :  INFO (plugin.modules.migrations.main:31) - Running migration: 'PreferencesMigration'
+2016-09-30 12:11:43,851 - plugin.modules.migrations.main   (14fc) :  INFO (plugin.modules.migrations.main:34) - Migrations complete
+2016-09-30 12:11:44,365 - plugin.core.method_manager       (14fc) :  INFO (plugin.core.method_manager:44) - Started 1 method(s): WebSocket
+2016-09-30 12:11:44,367 - plugin                           (14fc) :  INFO (plugin:176) - Started 1 modules: UpdateChecker
+2016-09-30 12:11:44,375 - requests.packages.urllib3.connectionpool (2004) :  INFO (requests.packages.urllib3.connectionpool:805) - Starting new HTTPS connection (1): pts.skipthe.net
+2016-09-30 12:11:44,381 - oem_core.core.plugin             (14fc) :  DEBUG (oem_core.core.plugin:101) - Found client: anidb
+2016-09-30 12:11:44,381 - oem_core.core.plugin             (14fc) :  DEBUG (oem_core.core.plugin:101) - Found client: anidb/constants
+2016-09-30 12:11:44,381 - oem_core.core.plugin             (14fc) :  DEBUG (oem_core.core.plugin:101) - Found client-provider: release
+2016-09-30 12:11:44,382 - oem_core.core.plugin             (14fc) :  DEBUG (oem_core.core.plugin:101) - Found client-provider: release/complete
+2016-09-30 12:11:44,382 - oem_core.core.plugin             (14fc) :  DEBUG (oem_core.core.plugin:101) - Found client-provider: release/incremental
+2016-09-30 12:11:44,384 - oem_core.core.plugin             (14fc) :  DEBUG (oem_core.core.plugin:101) - Found format: minimize
+2016-09-30 12:11:44,384 - oem_core.core.plugin             (14fc) :  DEBUG (oem_core.core.plugin:101) - Found format: minimize-msgpack
+2016-09-30 12:11:44,384 - oem_core.core.plugin             (14fc) :  DEBUG (oem_core.core.plugin:101) - Found format: msgpack
+2016-09-30 12:11:44,384 - oem_core.core.plugin             (14fc) :  DEBUG (oem_core.core.plugin:101) - Found storage: codernitydb
+2016-09-30 12:11:44,385 - oem_core.core.plugin             (14fc) :  DEBUG (oem_core.core.plugin:101) - Found storage: codernitydb/collection
+2016-09-30 12:11:44,385 - oem_core.core.plugin             (14fc) :  DEBUG (oem_core.core.plugin:101) - Found storage: codernitydb/database
+2016-09-30 12:11:44,385 - oem_core.core.plugin             (14fc) :  DEBUG (oem_core.core.plugin:101) - Found storage: codernitydb/index
+2016-09-30 12:11:44,385 - oem_core.core.plugin             (14fc) :  DEBUG (oem_core.core.plugin:101) - Found storage: codernitydb/indices
+2016-09-30 12:11:44,387 - oem_core.core.plugin             (14fc) :  DEBUG (oem_core.core.plugin:101) - Found storage: codernitydb/item
+2016-09-30 12:11:44,387 - oem_core.core.plugin             (14fc) :  DEBUG (oem_core.core.plugin:101) - Found storage: codernitydb/metadata
+2016-09-30 12:11:44,424 - oem_core.core.plugin             (14fc) :  INFO (oem_core.core.plugin:196) - Loaded client: 'anidb'
+2016-09-30 12:11:44,460 - oem_core.core.plugin             (14fc) :  INFO (oem_core.core.plugin:196) - Loaded format: 'minimize+msgpack'
+2016-09-30 12:11:44,466 - plex_activity.activity           (14fc) :  INFO (plex_activity.activity:48) - Finished starting 2 method(s): "websocket", "logging"
+2016-09-30 12:11:44,486 - plex_activity.sources.s_logging.main (1870) :  INFO (plex_activity.sources.s_logging.main:107) - Opened file path: "C:\Users\rongo\AppData\Local\Plex Media Server\Logs\Plex Media Server.log"
+2016-09-30 12:11:47,236 - com.plexapp.plugins.trakttv      (1518) :  INFO (com.plexapp.plugins.trakttv:131) - Saved the dictionary file
+2016-09-30 12:12:20,042 - root                             (1dd8) :  DEBUG (root:265) - Exception in I/O handler for fd 1612
+Traceback (most recent call last):
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\ioloop.py", line 256, in start
+    self._handlers[fd](fd, events)
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\stack_context.py", line 128, in wrapped
+    callback(*args, **kwargs)
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\httpserver.py", line 219, in _handle_events
+    connection, address = self._socket.accept()
+  File "C:\Program Files (x86)\Plex\Plex Media Server\python27.zip\socket.py", line 202, in accept
+    sock, addr = self._sock.accept()
+error: [Errno 10035] A non-blocking socket operation could not be completed immediately
+2016-09-30 12:12:20,109 - root                             (1904) :  INFO (root:840) - 200 GET /video/trakt/:/prefs (127.0.0.1) 57.00ms
+2016-09-30 12:12:23,747 - root                             (1dd8) :  DEBUG (root:265) - Exception in I/O handler for fd 1612
+Traceback (most recent call last):
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\ioloop.py", line 256, in start
+    self._handlers[fd](fd, events)
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\stack_context.py", line 128, in wrapped
+    callback(*args, **kwargs)
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\httpserver.py", line 219, in _handle_events
+    connection, address = self._socket.accept()
+  File "C:\Program Files (x86)\Plex\Plex Media Server\python27.zip\socket.py", line 202, in accept
+    sock, addr = self._sock.accept()
+error: [Errno 10035] A non-blocking socket operation could not be completed immediately
+2016-09-30 12:12:23,778 - root                             (1238) :  INFO (root:840) - 304 GET /video/trakt (127.0.0.1) 29.00ms
+2016-09-30 12:12:24,835 - root                             (1dd8) :  DEBUG (root:265) - Exception in I/O handler for fd 1612
+Traceback (most recent call last):
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\ioloop.py", line 256, in start
+    self._handlers[fd](fd, events)
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\stack_context.py", line 128, in wrapped
+    callback(*args, **kwargs)
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\httpserver.py", line 219, in _handle_events
+    connection, address = self._socket.accept()
+  File "C:\Program Files (x86)\Plex\Plex Media Server\python27.zip\socket.py", line 202, in accept
+    sock, addr = self._sock.accept()
+error: [Errno 10035] A non-blocking socket operation could not be completed immediately
+2016-09-30 12:12:24,861 - root                             (20a8) :  INFO (root:840) - 304 GET /video/trakt (127.0.0.1) 23.00ms
+2016-09-30 12:12:24,878 - root                             (1dd8) :  DEBUG (root:265) - Exception in I/O handler for fd 1612
+Traceback (most recent call last):
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\ioloop.py", line 256, in start
+    self._handlers[fd](fd, events)
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\stack_context.py", line 128, in wrapped
+    callback(*args, **kwargs)
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\httpserver.py", line 219, in _handle_events
+    connection, address = self._socket.accept()
+  File "C:\Program Files (x86)\Plex\Plex Media Server\python27.zip\socket.py", line 202, in accept
+    sock, addr = self._sock.accept()
+error: [Errno 10035] A non-blocking socket operation could not be completed immediately
+2016-09-30 12:12:24,907 - root                             (1944) :  INFO (root:840) - 200 GET /video/trakt/sync (127.0.0.1) 28.00ms
+2016-09-30 12:12:27,444 - root                             (1dd8) :  DEBUG (root:265) - Exception in I/O handler for fd 1612
+Traceback (most recent call last):
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\ioloop.py", line 256, in start
+    self._handlers[fd](fd, events)
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\stack_context.py", line 128, in wrapped
+    callback(*args, **kwargs)
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\httpserver.py", line 219, in _handle_events
+    connection, address = self._socket.accept()
+  File "C:\Program Files (x86)\Plex\Plex Media Server\python27.zip\socket.py", line 202, in accept
+    sock, addr = self._sock.accept()
+error: [Errno 10035] A non-blocking socket operation could not be completed immediately
+2016-09-30 12:12:27,473 - root                             (2054) :  INFO (root:840) - 200 GET /video/trakt/sync (127.0.0.1) 26.00ms
+2016-09-30 12:12:27,497 - root                             (1dd8) :  DEBUG (root:265) - Exception in I/O handler for fd 1612
+Traceback (most recent call last):
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\ioloop.py", line 256, in start
+    self._handlers[fd](fd, events)
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\stack_context.py", line 128, in wrapped
+    callback(*args, **kwargs)
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\httpserver.py", line 219, in _handle_events
+    connection, address = self._socket.accept()
+  File "C:\Program Files (x86)\Plex\Plex Media Server\python27.zip\socket.py", line 202, in accept
+    sock, addr = self._sock.accept()
+error: [Errno 10035] A non-blocking socket operation could not be completed immediately
+2016-09-30 12:12:27,842 - plugin.sync.main                 (10dc) :  INFO (plugin.sync.main:148) - (1) Started
+2016-09-30 12:12:27,846 - plugin.sync.modes.core.base.mode (10dc) :  INFO (plugin.sync.modes.core.base.mode:131) - Executing construct() on child: <plugin.sync.modes.pull.movies.Movies object at 0x06039470>
+2016-09-30 12:12:27,855 - plugin.sync.modes.core.base.mode (10dc) :  INFO (plugin.sync.modes.core.base.mode:131) - Executing construct() on child: <plugin.sync.modes.pull.shows.Shows object at 0x06039390>
+2016-09-30 12:12:27,865 - requests.packages.urllib3.connectionpool (10dc) :  INFO (requests.packages.urllib3.connectionpool:805) - Starting new HTTPS connection (1): api-v2launch.trakt.tv
+2016-09-30 12:12:29,328 - trakt_sync.cache.sources.sync    (10dc) :  INFO (trakt_sync.cache.sources.sync:162) - Fetching "sync/ratings/movies"
+2016-09-30 12:12:29,845 - root                             (fc0) :  INFO (root:840) - 302 GET /video/trakt/sync/pull?account_id=1&t=1475226744.89 (127.0.0.1) 2345.00ms
+2016-09-30 12:12:30,062 - trakt_sync.cache.sources.sync    (10dc) :  INFO (trakt_sync.cache.sources.sync:162) - Fetching "sync/collection/movies"
+2016-09-30 12:12:31,993 - trakt_sync.cache.sources.sync    (10dc) :  INFO (trakt_sync.cache.sources.sync:162) - Fetching "sync/playback/movies"
+2016-09-30 12:12:32,520 - trakt_sync.cache.sources.sync    (10dc) :  INFO (trakt_sync.cache.sources.sync:162) - Fetching "sync/watched/movies"
+2016-09-30 12:12:34,154 - trakt_sync.cache.sources.sync    (10dc) :  INFO (trakt_sync.cache.sources.sync:162) - Fetching "sync/ratings/episodes"
+2016-09-30 12:12:34,572 - trakt_sync.cache.sources.sync    (10dc) :  INFO (trakt_sync.cache.sources.sync:162) - Fetching "sync/playback/episodes"
+2016-09-30 12:12:36,132 - trakt_sync.cache.sources.sync    (10dc) :  INFO (trakt_sync.cache.sources.sync:162) - Fetching "sync/ratings/seasons"
+2016-09-30 12:12:36,772 - trakt_sync.cache.sources.sync    (10dc) :  INFO (trakt_sync.cache.sources.sync:162) - Fetching "sync/ratings/shows"
+2016-09-30 12:12:41,667 - root                             (1dd8) :  DEBUG (root:265) - Exception in I/O handler for fd 1612
+Traceback (most recent call last):
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\ioloop.py", line 256, in start
+    self._handlers[fd](fd, events)
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\stack_context.py", line 128, in wrapped
+    callback(*args, **kwargs)
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\httpserver.py", line 219, in _handle_events
+    connection, address = self._socket.accept()
+  File "C:\Program Files (x86)\Plex\Plex Media Server\python27.zip\socket.py", line 202, in accept
+    sock, addr = self._sock.accept()
+error: [Errno 10035] A non-blocking socket operation could not be completed immediately
+2016-09-30 12:12:41,694 - root                             (98c) :  INFO (root:840) - 304 GET /video/trakt (127.0.0.1) 24.00ms
+2016-09-30 12:12:44,427 - root                             (1dd8) :  DEBUG (root:265) - Exception in I/O handler for fd 1612
+Traceback (most recent call last):
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\ioloop.py", line 256, in start
+    self._handlers[fd](fd, events)
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\stack_context.py", line 128, in wrapped
+    callback(*args, **kwargs)
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\httpserver.py", line 219, in _handle_events
+    connection, address = self._socket.accept()
+  File "C:\Program Files (x86)\Plex\Plex Media Server\python27.zip\socket.py", line 202, in accept
+    sock, addr = self._sock.accept()
+error: [Errno 10035] A non-blocking socket operation could not be completed immediately
+2016-09-30 12:12:44,454 - root                             (4bc) :  INFO (root:840) - 304 GET /video/trakt (127.0.0.1) 21.00ms
+2016-09-30 12:12:44,470 - root                             (1dd8) :  DEBUG (root:265) - Exception in I/O handler for fd 1612
+Traceback (most recent call last):
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\ioloop.py", line 256, in start
+    self._handlers[fd](fd, events)
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\stack_context.py", line 128, in wrapped
+    callback(*args, **kwargs)
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\httpserver.py", line 219, in _handle_events
+    connection, address = self._socket.accept()
+  File "C:\Program Files (x86)\Plex\Plex Media Server\python27.zip\socket.py", line 202, in accept
+    sock, addr = self._sock.accept()
+error: [Errno 10035] A non-blocking socket operation could not be completed immediately
+2016-09-30 12:12:44,499 - root                             (ee4) :  INFO (root:840) - 200 GET /video/trakt/sync (127.0.0.1) 27.00ms
+2016-09-30 12:12:46,496 - plugin.sync.main                 (10dc) :  WARNING (plugin.sync.main:163) - Exception raised in run(): HTTPSConnectionPool(host='api-v2launch.trakt.tv', port=443): Max retries exceeded with url: /sync/ratings/shows (Caused by ProtocolError('Connection aborted.', error("(10054, 'WSAECONNRESET')",)))
+Traceback (most recent call last):
+  File "C:\Users\rongo\AppData\Local\Plex Media Server\Plug-ins\Trakttv.bundle\Contents\Libraries\Shared\plugin\sync\main.py", line 159, in run_wrapper
+    self.run()
+  File "C:\Users\rongo\AppData\Local\Plex Media Server\Plug-ins\Trakttv.bundle\Contents\Libraries\Shared\plugin\sync\main.py", line 246, in run
+    'stop'
+  File "C:\Users\rongo\AppData\Local\Plex Media Server\Plug-ins\Trakttv.bundle\Contents\Libraries\Shared\plugin\sync\main.py", line 263, in _trigger
+    func()
+  File "C:\Users\rongo\AppData\Local\Plex Media Server\Plug-ins\Trakttv.bundle\Contents\Libraries\Shared\elapsed\main.py", line 64, in inner
+    return func(*args, **kwargs)
+  File "C:\Users\rongo\AppData\Local\Plex Media Server\Plug-ins\Trakttv.bundle\Contents\Libraries\Shared\plugin\sync\modes\pull\__init__.py", line 36, in start
+    self.trakt.refresh()
+  File "C:\Users\rongo\AppData\Local\Plex Media Server\Plug-ins\Trakttv.bundle\Contents\Libraries\Shared\elapsed\main.py", line 64, in inner
+    return func(*args, **kwargs)
+  File "C:\Users\rongo\AppData\Local\Plex Media Server\Plug-ins\Trakttv.bundle\Contents\Libraries\Shared\plugin\sync\core\task\state\trakt_.py", line 110, in refresh
+    self.changes = list(self.changes)
+  File "C:\Users\rongo\AppData\Local\Plex Media Server\Plug-ins\Trakttv.bundle\Contents\Libraries\Shared\trakt_sync\cache\main.py", line 39, in refresh
+    for result in source.refresh(username):
+  File "C:\Users\rongo\AppData\Local\Plex Media Server\Plug-ins\Trakttv.bundle\Contents\Libraries\Shared\trakt_sync\cache\sources\sync.py", line 77, in refresh
+    store = self.fetch(d, m)
+  File "C:\Users\rongo\AppData\Local\Plex Media Server\Plug-ins\Trakttv.bundle\Contents\Libraries\Shared\trakt_sync\cache\sources\sync.py", line 165, in fetch
+    return func(exceptions=True)
+  File "C:\Users\rongo\AppData\Local\Plex Media Server\Plug-ins\Trakttv.bundle\Contents\Libraries\Shared\trakt\interfaces\base\__init__.py", line 20, in wrap
+    return func(*args, **kwargs)
+  File "C:\Users\rongo\AppData\Local\Plex Media Server\Plug-ins\Trakttv.bundle\Contents\Libraries\Shared\trakt\interfaces\sync\ratings.py", line 23, in shows
+    return self.get('shows', store, rating, **kwargs)
+  File "C:\Users\rongo\AppData\Local\Plex Media Server\Plug-ins\Trakttv.bundle\Contents\Libraries\Shared\trakt\interfaces\base\__init__.py", line 20, in wrap
+    return func(*args, **kwargs)
+  File "C:\Users\rongo\AppData\Local\Plex Media Server\Plug-ins\Trakttv.bundle\Contents\Libraries\Shared\trakt\interfaces\sync\ratings.py", line 15, in get
+    return super(SyncRatingsInterface, self).get(media, store, parameters, **kwargs)
+  File "C:\Users\rongo\AppData\Local\Plex Media Server\Plug-ins\Trakttv.bundle\Contents\Libraries\Shared\trakt\interfaces\base\__init__.py", line 20, in wrap
+    return func(*args, **kwargs)
+  File "C:\Users\rongo\AppData\Local\Plex Media Server\Plug-ins\Trakttv.bundle\Contents\Libraries\Shared\trakt\interfaces\sync\core\mixins.py", line 18, in get
+    authenticated=kwargs.pop('authenticated', None)
+  File "C:\Users\rongo\AppData\Local\Plex Media Server\Plug-ins\Trakttv.bundle\Contents\Libraries\Shared\trakt\core\http.py", line 126, in get
+    return self.request('GET', path, params, data, **kwargs)
+  File "C:\Users\rongo\AppData\Local\Plex Media Server\Plug-ins\Trakttv.bundle\Contents\Libraries\Shared\trakt\core\http.py", line 84, in request
+    return self.send(prepared)
+  File "C:\Users\rongo\AppData\Local\Plex Media Server\Plug-ins\Trakttv.bundle\Contents\Libraries\Shared\trakt\core\http.py", line 102, in send
+    response = self.session.send(request, timeout=timeout)
+  File "C:\Users\rongo\AppData\Local\Plex Media Server\Plug-ins\Trakttv.bundle\Contents\Libraries\Shared\requests\sessions.py", line 596, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\rongo\AppData\Local\Plex Media Server\Plug-ins\Trakttv.bundle\Contents\Libraries\Shared\requests\adapters.py", line 487, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPSConnectionPool(host='api-v2launch.trakt.tv', port=443): Max retries exceeded with url: /sync/ratings/shows (Caused by ProtocolError('Connection aborted.', error("(10054, 'WSAECONNRESET')",)))
+2016-09-30 12:16:02,338 - plugin.core.backup.sources.database (10dc) :  INFO (plugin.core.backup.sources.database:25) - [trakt\1] Backing up database to u'C:\\Users\\rongo\\AppData\\Local\\Plex Media Server\\Plug-in Support\\Data\\com.plexapp.plugins.trakttv\\Backups\\trakt\\1.bgr\\2016\\09\\30_121602_14.db'
+2016-09-30 12:16:02,710 - plugin.sync.main                 (10dc) :  INFO (plugin.sync.main:208) - (1) Done
+2016-09-30 12:21:04,095 - root                             (1dd8) :  DEBUG (root:265) - Exception in I/O handler for fd 1612
+Traceback (most recent call last):
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\ioloop.py", line 256, in start
+    self._handlers[fd](fd, events)
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\stack_context.py", line 128, in wrapped
+    callback(*args, **kwargs)
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\httpserver.py", line 219, in _handle_events
+    connection, address = self._socket.accept()
+  File "C:\Program Files (x86)\Plex\Plex Media Server\python27.zip\socket.py", line 202, in accept
+    sock, addr = self._sock.accept()
+error: [Errno 10035] A non-blocking socket operation could not be completed immediately
+2016-09-30 12:21:04,119 - root                             (f88) :  INFO (root:840) - 200 GET /video/trakt (127.0.0.1) 23.00ms
+2016-09-30 12:21:05,234 - root                             (1dd8) :  DEBUG (root:265) - Exception in I/O handler for fd 1612
+Traceback (most recent call last):
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\ioloop.py", line 256, in start
+    self._handlers[fd](fd, events)
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\stack_context.py", line 128, in wrapped
+    callback(*args, **kwargs)
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\httpserver.py", line 219, in _handle_events
+    connection, address = self._socket.accept()
+  File "C:\Program Files (x86)\Plex\Plex Media Server\python27.zip\socket.py", line 202, in accept
+    sock, addr = self._sock.accept()
+error: [Errno 10035] A non-blocking socket operation could not be completed immediately
+2016-09-30 12:21:05,259 - root                             (e50) :  INFO (root:840) - 304 GET /video/trakt (127.0.0.1) 21.00ms
+2016-09-30 12:21:05,278 - root                             (1dd8) :  DEBUG (root:265) - Exception in I/O handler for fd 1612
+Traceback (most recent call last):
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\ioloop.py", line 256, in start
+    self._handlers[fd](fd, events)
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\stack_context.py", line 128, in wrapped
+    callback(*args, **kwargs)
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\httpserver.py", line 219, in _handle_events
+    connection, address = self._socket.accept()
+  File "C:\Program Files (x86)\Plex\Plex Media Server\python27.zip\socket.py", line 202, in accept
+    sock, addr = self._sock.accept()
+error: [Errno 10035] A non-blocking socket operation could not be completed immediately
+2016-09-30 12:21:05,288 - root                             (1528) :  INFO (root:840) - 200 GET /video/trakt/messages/list?viewed=False (127.0.0.1) 8.00ms
+2016-09-30 12:21:06,467 - root                             (1dd8) :  DEBUG (root:265) - Exception in I/O handler for fd 1612
+Traceback (most recent call last):
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\ioloop.py", line 256, in start
+    self._handlers[fd](fd, events)
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\stack_context.py", line 128, in wrapped
+    callback(*args, **kwargs)
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\httpserver.py", line 219, in _handle_events
+    connection, address = self._socket.accept()
+  File "C:\Program Files (x86)\Plex\Plex Media Server\python27.zip\socket.py", line 202, in accept
+    sock, addr = self._sock.accept()
+error: [Errno 10035] A non-blocking socket operation could not be completed immediately
+2016-09-30 12:21:06,483 - root                             (1cfc) :  INFO (root:840) - 304 GET /video/trakt/messages/list?viewed=False (127.0.0.1) 9.00ms
+2016-09-30 12:21:06,499 - root                             (1dd8) :  DEBUG (root:265) - Exception in I/O handler for fd 1612
+Traceback (most recent call last):
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\ioloop.py", line 256, in start
+    self._handlers[fd](fd, events)
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\stack_context.py", line 128, in wrapped
+    callback(*args, **kwargs)
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\httpserver.py", line 219, in _handle_events
+    connection, address = self._socket.accept()
+  File "C:\Program Files (x86)\Plex\Plex Media Server\python27.zip\socket.py", line 202, in accept
+    sock, addr = self._sock.accept()
+error: [Errno 10035] A non-blocking socket operation could not be completed immediately
+2016-09-30 12:21:06,526 - root                             (15d8) :  INFO (root:840) - 200 GET /video/trakt/messages/view?error_id=5 (127.0.0.1) 26.00ms
+2016-09-30 12:21:07,917 - root                             (1dd8) :  DEBUG (root:265) - Exception in I/O handler for fd 1612
+Traceback (most recent call last):
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\ioloop.py", line 256, in start
+    self._handlers[fd](fd, events)
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\stack_context.py", line 128, in wrapped
+    callback(*args, **kwargs)
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\httpserver.py", line 219, in _handle_events
+    connection, address = self._socket.accept()
+  File "C:\Program Files (x86)\Plex\Plex Media Server\python27.zip\socket.py", line 202, in accept
+    sock, addr = self._sock.accept()
+error: [Errno 10035] A non-blocking socket operation could not be completed immediately
+2016-09-30 12:21:07,976 - root                             (17b8) :  INFO (root:840) - 304 GET /video/trakt/messages/view?error_id=5 (127.0.0.1) 53.00ms
+2016-09-30 12:21:07,990 - root                             (1dd8) :  DEBUG (root:265) - Exception in I/O handler for fd 1612
+Traceback (most recent call last):
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\ioloop.py", line 256, in start
+    self._handlers[fd](fd, events)
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\stack_context.py", line 128, in wrapped
+    callback(*args, **kwargs)
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\httpserver.py", line 219, in _handle_events
+    connection, address = self._socket.accept()
+  File "C:\Program Files (x86)\Plex\Plex Media Server\python27.zip\socket.py", line 202, in accept
+    sock, addr = self._sock.accept()
+error: [Errno 10035] A non-blocking socket operation could not be completed immediately
+2016-09-30 12:21:08,013 - root                             (1298) :  INFO (root:840) - 200 GET /video/trakt/exceptions/view?exception_id=5 (127.0.0.1) 12.00ms
+2016-09-30 12:21:12,502 - root                             (1dd8) :  DEBUG (root:265) - Exception in I/O handler for fd 1612
+Traceback (most recent call last):
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\ioloop.py", line 256, in start
+    self._handlers[fd](fd, events)
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\stack_context.py", line 128, in wrapped
+    callback(*args, **kwargs)
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\httpserver.py", line 219, in _handle_events
+    connection, address = self._socket.accept()
+  File "C:\Program Files (x86)\Plex\Plex Media Server\python27.zip\socket.py", line 202, in accept
+    sock, addr = self._sock.accept()
+error: [Errno 10035] A non-blocking socket operation could not be completed immediately
+2016-09-30 12:21:12,529 - root                             (15dc) :  INFO (root:840) - 200 GET /video/trakt (127.0.0.1) 25.00ms
+2016-09-30 12:21:13,354 - root                             (1dd8) :  DEBUG (root:265) - Exception in I/O handler for fd 1612
+Traceback (most recent call last):
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\ioloop.py", line 256, in start
+    self._handlers[fd](fd, events)
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\stack_context.py", line 128, in wrapped
+    callback(*args, **kwargs)
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\httpserver.py", line 219, in _handle_events
+    connection, address = self._socket.accept()
+  File "C:\Program Files (x86)\Plex\Plex Media Server\python27.zip\socket.py", line 202, in accept
+    sock, addr = self._sock.accept()
+error: [Errno 10035] A non-blocking socket operation could not be completed immediately
+2016-09-30 12:21:13,378 - root                             (d2c) :  INFO (root:840) - 304 GET /video/trakt (127.0.0.1) 22.00ms
+2016-09-30 12:21:13,394 - root                             (1dd8) :  DEBUG (root:265) - Exception in I/O handler for fd 1612
+Traceback (most recent call last):
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\ioloop.py", line 256, in start
+    self._handlers[fd](fd, events)
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\stack_context.py", line 128, in wrapped
+    callback(*args, **kwargs)
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\httpserver.py", line 219, in _handle_events
+    connection, address = self._socket.accept()
+  File "C:\Program Files (x86)\Plex\Plex Media Server\python27.zip\socket.py", line 202, in accept
+    sock, addr = self._sock.accept()
+error: [Errno 10035] A non-blocking socket operation could not be completed immediately
+2016-09-30 12:21:13,433 - root                             (15f0) :  INFO (root:840) - 200 GET /video/trakt/sync (127.0.0.1) 27.00ms
+2016-09-30 12:21:20,447 - root                             (1dd8) :  DEBUG (root:265) - Exception in I/O handler for fd 1612
+Traceback (most recent call last):
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\ioloop.py", line 256, in start
+    self._handlers[fd](fd, events)
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\stack_context.py", line 128, in wrapped
+    callback(*args, **kwargs)
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\httpserver.py", line 219, in _handle_events
+    connection, address = self._socket.accept()
+  File "C:\Program Files (x86)\Plex\Plex Media Server\python27.zip\socket.py", line 202, in accept
+    sock, addr = self._sock.accept()
+error: [Errno 10035] A non-blocking socket operation could not be completed immediately
+2016-09-30 12:21:20,480 - root                             (1690) :  INFO (root:840) - 200 GET /video/trakt/sync (127.0.0.1) 28.00ms
+2016-09-30 12:21:20,510 - root                             (1dd8) :  DEBUG (root:265) - Exception in I/O handler for fd 1612
+Traceback (most recent call last):
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\ioloop.py", line 256, in start
+    self._handlers[fd](fd, events)
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\stack_context.py", line 128, in wrapped
+    callback(*args, **kwargs)
+  File "C:\Program Files (x86)\Plex\Plex Media Server\Resources\Plug-ins-24ffd60\Framework.bundle\Contents\Resources\Platforms\Shared\Libraries\tornado\httpserver.py", line 219, in _handle_events
+    connection, address = self._socket.accept()
+  File "C:\Program Files (x86)\Plex\Plex Media Server\python27.zip\socket.py", line 202, in accept
+    sock, addr = self._sock.accept()
+error: [Errno 10035] A non-blocking socket operation could not be completed immediately
+2016-09-30 12:21:20,601 - plugin.sync.main                 (10dc) :  INFO (plugin.sync.main:148) - (1) Started
+2016-09-30 12:21:20,605 - plugin.sync.modes.core.base.mode (10dc) :  INFO (plugin.sync.modes.core.base.mode:131) - Executing construct() on child: <plugin.sync.modes.pull.movies.Movies object at 0x07F35BD0>
+2016-09-30 12:21:20,614 - plugin.sync.modes.core.base.mode (10dc) :  INFO (plugin.sync.modes.core.base.mode:131) - Executing construct() on child: <plugin.sync.modes.pull.shows.Shows object at 0x07F35C10>
+2016-09-30 12:21:20,624 - requests.packages.urllib3.connectionpool (10dc) :  INFO (requests.packages.urllib3.connectionpool:805) - Starting new HTTPS connection (2): api-v2launch.trakt.tv
+2016-09-30 12:21:21,401 - trakt_sync.cache.sources.sync    (10dc) :  INFO (trakt_sync.cache.sources.sync:162) - Fetching "sync/ratings/shows"
+2016-09-30 12:21:21,890 - trakt_sync.cache.sources.sync    (10dc) :  INFO (trakt_sync.cache.sources.sync:162) - Fetching "sync/collection/shows"
+2016-09-30 12:21:22,601 - root                             (93c) :  INFO (root:840) - 302 GET /video/trakt/sync/pull?account_id=1&t=1475227273.41 (127.0.0.1) 2089.00ms
+2016-09-30 12:21:24,904 - trakt_sync.cache.sources.sync    (10dc) :  DEBUG (trakt_sync.cache.sources.sync:147) - Ignoring unsupported collection - data: 2, media: 2
+2016-09-30 12:21:25,111 - trakt_sync.cache.sources.sync    (10dc) :  INFO (trakt_sync.cache.sources.sync:162) - Fetching "sync/watched/shows"
